@@ -1,0 +1,31 @@
+{
+  "milky": {
+    "ws_gateway": "ws://127.0.0.1:22345/event",
+    "rest_gateway": "http://127.0.0.1:22345/api",
+    "token": ""
+  },
+  "onebot": {
+    "host": "0.0.0.0",
+    "port": 6700,
+    "access_token": "",
+    "enable_http_api": false,
+    "enable_ws_api": true,
+    "enable_ws_event": true,
+    "enable_ws_universal": true,
+    "reverse": {
+      "enable": false,
+      "url": "",
+      "api_url": "",
+      "event_url": "",
+      "use_universal_client": false,
+      "reconnect_interval_ms": 3000
+    }
+  },
+  "bridge": {
+    "self_id": 0,
+    "message_format": "array",
+    "heartbeat_interval_ms": 15000,
+    "log_level": "info",
+    "cache_size": 2048
+  }
+}
