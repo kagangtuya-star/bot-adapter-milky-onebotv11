@@ -84,4 +84,3 @@
 - 当前默认 `message_format=array`，更适合和内部消息 IR 对齐。
 - 反向 WebSocket 连接时会按 OneBot-11 规范带上 `X-Self-ID`、`X-Client-Role` 和可选 `Authorization` 头。
 - 复杂 CQ 段和部分高级管理接口仍未实现，未实现接口会返回明确错误。
-- 原始 `platform_adapter_milky*.go` 文件仅作为参考源码，已通过 build tag 排除，不参与当前 bridge 编译。
